@@ -4,7 +4,7 @@ import { Project } from "@/types";
 import { Education } from "@/types";
 import { SocialLink } from "@/types";
 import { ContactInfo } from "@/types";
-import { title } from "process";
+
 // import { Metadata } from "@/types";
 
 export const education: Education[] = [
