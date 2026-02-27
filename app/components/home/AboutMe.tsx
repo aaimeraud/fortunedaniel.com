@@ -14,7 +14,7 @@ export default function AboutMe() {
           to new opportunities and collaborations.
         </p>
         <p className="text-sm tracking-tight">
-          i&apos;m currently {Daniel.news.toLowerCase()} in the{" "}
+          I&apos;m currently {Daniel.news.toLowerCase()} in the{" "}
           Parisian region starting mid-April 2026 as a{" "}
           frontend or fullstack junior developer.
         </p>

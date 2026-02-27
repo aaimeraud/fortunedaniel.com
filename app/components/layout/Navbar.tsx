@@ -23,7 +23,7 @@ export default function Navbar() {
             <Plus className="customoutline" />
           </div>
         </DrawerTrigger>
-        <DrawerContent className="dark:bg-resumepurple dark:text-resumewhite text-resumepurple w-full">
+        <DrawerContent className="dark:bg-resumepurple dark:text-resumewhite text-resumepurple bg-resumewhite w-full">
           <DrawerHeader>
             <DrawerTitle className="text-2xl dark:text-resumewhite text-resumepurple w-full text-center">
               <span>Reach me</span>

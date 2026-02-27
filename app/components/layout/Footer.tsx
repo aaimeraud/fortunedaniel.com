@@ -7,7 +7,7 @@ export default function Footer() {
         className="flex w-full items-center dark:text-resumewhite
 text-resumepurple gap-5 justify-center text-center">
         <span className="flex gap-1 items-center text-center animate-pulse">
-          click on the{" "}
+          Press
           <Plus className="w-4  h-4 bg-resumewhite text-resumepurple rounded-full " />
           to see the links
         </span>
