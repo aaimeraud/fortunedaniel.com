@@ -18,15 +18,15 @@ export default function Header() {
       />
       <div className="flex flex-col gap-2">
         <div className="flex flex-col">
-          <h1 className="text-2xl font-semibold ">Daniel F.</h1>
-          <h5 className="text-sm font-light dark:text-inherit/40 text-inherit/70">
+          <h1 className="text-2xl font-semibold  tracking-tight">Daniel F.</h1>
+          <h5 className="text-sm font-light dark:text-inherit/40 text-inherit/70 tracking-tight">
             {Daniel.profession}
           </h5>
-          <p className="text-xs  dark:text-inherit/40 text-inherit/70">
-            Bachelor {education[0].currentGrade} à{" "}
+          <p className="text-xs  dark:text-inherit/40 text-inherit/70 tracking-tight">
+            Bachelor {education[0].currentGrade} at{" "}
             <a
               href="https://ecole-decode.fr"
-              className="hover:opacity-70 bg-resumepurple text-resumewhite dark:bg-resumewhite dark:text-resumepurple px-1 rounded-xs customoutline transition duration-300">
+              className="hover:opacity-70 bg-resumepurple text-resumewhite dark:bg-resumewhite dark:text-resumepurple px-1 rounded-xs customoutline transition duration-300 tracking-tight">
               {education[0].institution}
             </a>
           </p>

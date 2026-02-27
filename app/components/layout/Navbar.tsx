@@ -16,7 +16,7 @@ import { Plus } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <div className=" p-5 fixed w-full z-0 flex items-center justify-end animate-pulse customoutline">
+    <div className=" p-5 md:p-10 fixed w-full z-0 flex items-center justify-end  customoutline">
       <Drawer direction="bottom">
         <DrawerTrigger className="customoutline">
           <div className=" p-1   border border-resumewhite/15 dark:border-resumepurple/15 bg-resumepurple dark:bg-resumewhite text-resumewhite dark:text-resumepurple/80 rounded-full customoutline cursor-pointer">

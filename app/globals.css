@@ -43,8 +43,8 @@
 }
 
 @theme inline {
-  --color-resumewhite: var(--resumewhite);
-  --color-resumepurple: var(--resumepurple);
+  --color-resumewhite: var(--alt-color-light);
+  --color-resumepurple: var(--alt-color-dark);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -116,7 +116,8 @@
 
 :root {
   --resumewhite: oklch(91% 0% 68deg);
-  --resumetestcolor: oklch(0% 0 0);
+  --alt-color-dark: oklch(22.678% 0.07537 25.552);
+  --alt-color-light: oklch(90% 0.1 25.552);
   --resumepurple: oklch(40% 31% 13deg);
   --radius: 0.625rem;
   --background: oklch(1 0 0);

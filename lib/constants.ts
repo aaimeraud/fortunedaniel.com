@@ -12,7 +12,7 @@ export const education: Education[] = [
     institution: ".decode",
     degree: "Bachelor Concepteur Développeur d’Applications Web",
     startDate: "2025",
-    currentGrade: "2ème année",
+    currentGrade: "(2nd year)",
     endDate: "2027",
     description:
       "Formation axée sur le développement web, incluant HTML, CSS, JavaScript, PHP et gestion de bases de données. Les étudiants acquièrent également des compétences en versioning, en gestion de projet agile, et en soft skills essentiels pour le travail en équipe.",
@@ -39,8 +39,8 @@ export const Daniel = {
   name: "Daniel",
   surname: "Fortuné",
   age: calculateAge("2004-7-12"),
-  profession: "Développeur Frontend Freelance",
-  professionUpper: "DEVELOPPEUR FRONTEND FREELANCE",
+  profession: "Freelance Frontend Developer",
+  professionUpper: "FREELANCE FRONTEND DEVELOPER",
   linkedInBio: "I help SMEs and freelancers develop their online activities.",
 
   news: "Looking for an internship",
@@ -62,7 +62,7 @@ export const socialLinks: SocialLink[] = [
   { platform: "GitHub", url: "https://github.com/aaimeraud" },
   { platform: "LinkedIn", url: "https://www.linkedin.com/in/danielfortuné/" },
   { platform: "Email", url: `mailto:${contactInfo.email}` },
-  { platform :"Schedule a meeting", url: "https://cal.eu/danielfortune" },
+  { platform: "Schedule a meeting", url: "https://cal.eu/danielfortune" },
 ];
 
 export const projects: Project[] = [
@@ -89,7 +89,7 @@ export const projects: Project[] = [
     description:
       "My personal website, showcasing my projects and skills as a frontend developer.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript"],
-    link: "https://www.github.com/aaimeraud/portfoliodaniel",
+    link: "https://www.github.com/aaimeraud/fortunedaniel.com",
     status: "Completed",
   },
 ];

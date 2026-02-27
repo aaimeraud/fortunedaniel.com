@@ -3,5 +3,5 @@ export default function SectionWrapper({
 }: {
   children: React.ReactNode;
 }) {
-  return <section className="p-2 h-screen ">{children}</section>;
+  return <section className="p-3 md:p-5 h-svh ">{children}</section>;
 }

@@ -6,8 +6,8 @@ export default function Projects() {
   return (
     <div className="flex flex-col gap-4 w-full">
       <div>
-        <h2 className="text-xl font-semibold ">Projects</h2>
-        <p className="text-sm dark:text-resumewhite/80 text-resumepurple/80">
+        <h2 className="text-xl font-semibold  tracking-tight">Projects</h2>
+        <p className="text-sm dark:text-resumewhite/80 text-resumepurple/80 tracking-tight">
           Here are some of the projects I&apos;ve worked on recently. Check my{" "}
           <Link
             href={socialLinks[0].url}
