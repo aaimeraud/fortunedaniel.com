@@ -33,7 +33,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistMono.variable} ${ebGaramond.variable} antialiased dark:bg-resumewhite bg-resumepurple `}>
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
       </body>
     </html>

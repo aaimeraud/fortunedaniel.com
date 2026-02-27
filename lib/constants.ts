@@ -62,6 +62,7 @@ export const socialLinks: SocialLink[] = [
   { platform: "GitHub", url: "https://github.com/aaimeraud" },
   { platform: "LinkedIn", url: "https://www.linkedin.com/in/danielfortuné/" },
   { platform: "Email", url: `mailto:${contactInfo.email}` },
+  { platform :"Schedule a meeting", url: "https://cal.eu/danielfortune" },
 ];
 
 export const projects: Project[] = [
@@ -85,10 +86,10 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "My portfolio website",
-    description: "My personal website, showcasing my projects and skills as a frontend developer.",
+    description:
+      "My personal website, showcasing my projects and skills as a frontend developer.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript"],
     link: "https://www.github.com/aaimeraud/portfoliodaniel",
     status: "In Progress",
-
-  }
+  },
 ];
