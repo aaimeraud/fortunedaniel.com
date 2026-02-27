@@ -3,6 +3,7 @@ import { EB_Garamond } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "./components/layout/Navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const ebGaramond = EB_Garamond({
   variable: "--font-eb-garamond",
@@ -76,6 +77,7 @@ export default function RootLayout({
         className={` ${ebGaramond.variable} antialiased dark:bg-resumewhite bg-resumepurple scrollbar`}>
         <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
