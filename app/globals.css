@@ -6,6 +6,11 @@
 
 /* @custom-variant dark (&:is(.dark *)); */
 @layer utilities {
+  body {
+    --sb-track-color: var(--resumewhite);
+    --sb-thumb-color: var(--resumepurple);
+    --sb-size: 14px;
+  }
   @media (prefers-color-scheme: dark) {
     body {
       --sb-track-color: var(--resumepurple);
