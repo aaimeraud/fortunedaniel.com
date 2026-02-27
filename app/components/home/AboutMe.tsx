@@ -15,7 +15,7 @@ export default function AboutMe() {
         </p>
         <p className="text-sm tracking-tight">
           I&apos;m currently {Daniel.news.toLowerCase()} in the{" "}
-          Parisian region starting mid-April 2026 as a{" "}
+          Greater Paris area region starting mid-April 2026 as a{" "}
           frontend or fullstack junior developer.
         </p>
         <a
