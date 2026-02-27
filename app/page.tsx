@@ -1,6 +1,7 @@
 
 import SectionWrapper from "./components/layout/SectionWrapper";
-import Hero from "./components/home/heroSection/Hero";
+import Hero from "./components/home/Hero";
+
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
 
     <SectionWrapper>
       <Hero />
+      
     </SectionWrapper>
    
   );

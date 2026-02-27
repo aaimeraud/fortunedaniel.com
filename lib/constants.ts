@@ -43,7 +43,7 @@ export const Daniel = {
   professionUpper: "DEVELOPPEUR FRONTEND FREELANCE",
   linkedInBio: "I help SMEs and freelancers develop their online activities.",
 
-  news: "Looking for an internship in Paris",
+  news: "Looking for an internship",
 };
 
 export const navbarLinks: NavbarLink[] = [
@@ -90,6 +90,6 @@ export const projects: Project[] = [
       "My personal website, showcasing my projects and skills as a frontend developer.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript"],
     link: "https://www.github.com/aaimeraud/portfoliodaniel",
-    status: "In Progress",
+    status: "Completed",
   },
 ];

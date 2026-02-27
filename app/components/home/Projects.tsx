@@ -1,12 +1,12 @@
 import { socialLinks } from "@/lib/constants";
 import Link from "next/link";
-import ProjectLink from "../../ui/ProjectLink";
+import ProjectLink from "../ui/ProjectLink";
 
 export default function Projects() {
   return (
     <div className="flex flex-col gap-4 w-full">
       <div>
-        <h2 className="text-xl font-semibold">Projects</h2>
+        <h2 className="text-xl font-semibold ">Projects</h2>
         <p className="text-sm dark:text-resumewhite/80 text-resumepurple/80">
           Here are some of the projects I&apos;ve worked on recently. Check my{" "}
           <Link
@@ -21,6 +21,8 @@ export default function Projects() {
         <ProjectLink index={0} />
         <ProjectLink index={1} />
         <ProjectLink index={2} />
+
+
       </div>
     </div>
   );

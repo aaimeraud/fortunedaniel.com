@@ -2,7 +2,45 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+@tailwind utilities;
+
 /* @custom-variant dark (&:is(.dark *)); */
+@layer utilities {
+  @media (prefers-color-scheme: dark) {
+    body {
+      --sb-track-color: var(--resumepurple);
+      --sb-thumb-color: var(--resumewhite);
+      --sb-size: 14px;
+    }
+  }
+
+  body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  body::-webkit-scrollbar-track {
+    border-radius: 3px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+  }
+
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+  }
+}
+
+.no-selector {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 
 @theme inline {
   --color-resumewhite: var(--resumewhite);
@@ -60,13 +98,19 @@
     @apply px-4 py-1.5 text-resumepurple/80 dark:text-resumepurple text-sm font-semibold dark:hover:bg-red-700/80 hover:text-resumepurple transition duration-150;
   }
   .customoutline {
-    @apply focus-visible:outline-2  focus-visible:outline-offset-2 focus-visible:outline-resumepurple dark:focus-visible:outline-resumewhite;
+    @apply focus-visible:outline-2  focus-visible:outline-offset-2 focus-visible:outline-resumepurple dark:focus-visible:outline-resumewhite rounded;
   }
   * {
     @apply border-border outline-ring/50 selection:bg-resumepurple selection:text-resumewhite dark:selection:bg-resumewhite dark:selection:text-resumepurple selection:rounded-xl selection:px-1 selection:py-0.5;
   }
   body {
     @apply bg-background text-foreground;
+  }
+  body::-webkit-scrollbar-track {
+    @apply bg-resumepurple dark:bg-resumewhite;
+  }
+  body::-webkit-scrollbar-thumb {
+    @apply bg-resumewhite dark:bg-resumepurple;
   }
 }
 

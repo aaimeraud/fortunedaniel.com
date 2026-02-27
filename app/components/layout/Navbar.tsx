@@ -2,7 +2,6 @@
 import { socialLinks } from "@/lib/constants";
 import Link from "next/link";
 
-
 import {
   Drawer,
   DrawerClose,
@@ -16,37 +15,35 @@ import { Button } from "../ui/button";
 import { Plus } from "lucide-react";
 
 export default function Navbar() {
-
-
-  return  (
-    <div className=" p-5 fixed w-full z-0 flex items-center justify-end">
+  return (
+    <div className=" p-5 fixed w-full z-0 flex items-center justify-end animate-pulse customoutline">
       <Drawer direction="bottom">
-        <DrawerTrigger>
-          <div className=" p-1   border border-resumewhite/15 dark:border-resumepurple/15 bg-resumepurple dark:bg-resumewhite text-resumewhite dark:text-resumepurple/80 rounded-full  cursor-pointer">
-            <Plus />
+        <DrawerTrigger className="customoutline">
+          <div className=" p-1   border border-resumewhite/15 dark:border-resumepurple/15 bg-resumepurple dark:bg-resumewhite text-resumewhite dark:text-resumepurple/80 rounded-full customoutline cursor-pointer">
+            <Plus className="customoutline" />
           </div>
         </DrawerTrigger>
-        <DrawerContent className="dark:bg-resumepurple dark:text-resumewhite text-resumepurple">
+        <DrawerContent className="dark:bg-resumepurple dark:text-resumewhite text-resumepurple w-full">
           <DrawerHeader>
             <DrawerTitle className="text-2xl dark:text-resumewhite text-resumepurple w-full text-center">
-              <Link href="/">Find me @</Link>
+              <span>Reach me</span>
             </DrawerTitle>
           </DrawerHeader>
-          <nav className="flex flex-col gap-5 p-5 text-center justify-between items-center">
+          <nav className="flex flex-col gap-2 p-5 w-full text-center justify-between items-center customoutline">
             {socialLinks.map((link) => (
               <Link
                 key={link.url}
                 href={link.url}
-                className=" font-light hover:opacity-70 transition duration-200">
+                className="p-2 dark:hover:bg-resumewhite dark:hover:text-resumepurple w-full font-medium transition duration-200 customoutline">
                 {link.platform}
               </Link>
             ))}
           </nav>
           <DrawerFooter>
-            <DrawerClose asChild>
+            <DrawerClose asChild className="customoutline">
               <Button
                 variant="ghost"
-                className="hover:text-resumewhite hover:bg-resumepurple cursor-pointer">
+                className="hover:text-resumewhite hover:bg-resumepurple cursor-pointer customoutline">
                 Close
               </Button>
             </DrawerClose>

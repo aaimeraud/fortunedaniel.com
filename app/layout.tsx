@@ -3,7 +3,7 @@ import {  Geist_Mono, EB_Garamond } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "./components/layout/Navbar";
-// import Footer from "./components/layout/Footer";
+import Footer from "./components/layout/Footer";
 
 
 
@@ -32,9 +32,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistMono.variable} ${ebGaramond.variable} antialiased dark:bg-resumewhite bg-resumepurple `}>
+        className={`${geistMono.variable} ${ebGaramond.variable} antialiased dark:bg-resumewhite bg-resumepurple scrollbar`}>
         <Navbar />
         {children}
+
       </body>
     </html>
   );
