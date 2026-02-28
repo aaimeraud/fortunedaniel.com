@@ -13,9 +13,9 @@ const ebGaramond = EB_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Daniel Fortuné",
+  title: "Daniel Fortuné — Frontend Developer & Web Solutions",
   description:
-    "Freelance frontend developer based in Paris specializing in creating modern, responsive websites and web applications. I combine technical expertise with creative design to build engaging digital experiences that drive results. Whether you need a professional portfolio, e-commerce platform, or a custom web solution, I'm passionate about delivering high quality code and exceptional user experiences. Let's collaborate on your next project.",
+    "Frontend developer based in Paris specializing in responsive design and web solutions. Ready to bring your project ideas to life.",
   keywords: [
     "Daniel Fortuné",
     "Daniel Fortune",
@@ -35,26 +35,26 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     url: "https://fortunedaniel.com",
-    title: "Daniel Fortuné - Freelance Developer",
+    title: "Daniel Fortuné — Frontend Developer & Web Solutions",
     type: "website",
     description:
-      "Freelance frontend developer based in Paris specializing in creating modern, responsive websites and web applications. I combine technical expertise with creative design to build engaging digital experiences that drive results. Whether you need a professional portfolio, e-commerce platform, or a custom web solution, I'm passionate about delivering high quality code and exceptional user experiences. Let's collaborate on your next project.",
+      "Frontend developer based in Paris specializing in responsive design and web solutions. Ready to bring your project ideas to life.",
     siteName: "fortunedaniel.com",
     images: [
       {
         url: "/assets/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Daniel Fortuné - Freelance Developer",
+        alt: "Daniel Fortuné — Frontend Developer & Web Solutions",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     images: "/assets/images/og-image.png",
-    title: "Daniel Fortuné - Freelance Developer",
+    title: "Daniel Fortuné — Frontend Developer & Web Solutions",
     description:
-      "Freelance frontend developer based in Paris specializing in creating modern, responsive websites and web applications. I combine technical expertise with creative design to build engaging digital experiences that drive results. Whether you need a professional portfolio, e-commerce platform, or a custom web solution, I'm passionate about delivering high quality code and exceptional user experiences. Let's collaborate on your next project.",
+      "Frontend developer based in Paris specializing in responsive design and web solutions. Ready to bring your project ideas to life.",
   },
 
   robots: {
