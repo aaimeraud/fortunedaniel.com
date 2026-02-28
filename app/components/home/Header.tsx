@@ -19,9 +19,9 @@ export default function Header() {
       <div className="flex flex-col gap-2">
         <div className="flex flex-col">
           <h1 className="text-2xl font-semibold  tracking-tight">Daniel F.</h1>
-          <h5 className="text-sm font-light dark:text-inherit/40 text-inherit/70 tracking-tight" title="Daniel's profession">
+          <h2 className="text-sm font-light dark:text-inherit/40 text-inherit/70 tracking-tight" title="Daniel's profession">
             {Daniel.profession}
-          </h5>
+          </h2>
           <p className="text-xs  dark:text-inherit/40 text-inherit/70 tracking-tight" title="Daniel's current education">
             Bachelor {education[0].currentGrade} at{" "}
             <a

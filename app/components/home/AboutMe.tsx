@@ -4,7 +4,7 @@ import { Daniel } from "@/lib/constants";
 export default function AboutMe() {
   return (
     <div className="flex flex-col gap-2" id="about-me-section" title="About me section, it contains some informations about Daniel Fortuné and a link to his CV that's more explicit about what's in it" >
-      <h2 className="text-xl font-semibold tracking-tight" >About Me</h2>
+      <h3 className="text-xl font-semibold tracking-tight" >About Me</h3>
       <div className="flex flex-col gap-3">
         <p className="text-sm tracking-tight">
           I&apos;m a frontend developer and a{" "}

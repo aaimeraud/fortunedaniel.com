@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section className="flex flex-col gap-4 w-full" id="projects-section" title="This is the projects section. it contains links to Daniel's most recent projects">
       <div>
-        <h2 className="text-xl font-semibold  tracking-tight">Projects</h2>
+        <h3 className="text-xl font-semibold  tracking-tight">Projects</h3>
         <p className="text-sm dark:text-resumewhite/80 text-resumepurple/80 tracking-tight" title="A short description of the projects section, it contains a link to Daniel's social media where he posts about his projects">
           Here are some of the projects I&apos;ve worked on recently. Check my{" "}
           <Link
