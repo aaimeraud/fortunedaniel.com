@@ -4,7 +4,7 @@ import ProjectLink from "../ui/ProjectLink";
 
 export default function Projects() {
   return (
-    <div className="flex flex-col gap-4 w-full">
+    <section className="flex flex-col gap-4 w-full" id="projects-section">
       <div>
         <h2 className="text-xl font-semibold  tracking-tight">Projects</h2>
         <p className="text-sm dark:text-resumewhite/80 text-resumepurple/80 tracking-tight">
@@ -21,9 +21,7 @@ export default function Projects() {
         <ProjectLink index={0} />
         <ProjectLink index={1} />
         <ProjectLink index={2} />
-
-
       </div>
-    </div>
+    </section>
   );
 }
