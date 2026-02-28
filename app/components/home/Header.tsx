@@ -6,7 +6,7 @@ import NewsBanner from "../ui/NewsBanner";
 
 export default function Header() {
   return (
-    <section className="flex lg:flex-row flex-col gap-5 lg:py-5 lg:items-center" id="profile-section">
+    <section className="flex lg:flex-row flex-col gap-5 lg:py-5 lg:items-center" id="profile-section" title="Profile section, it contains a picture of Daniel Fortuné and some informations about him" >
       <Image
         src={profilePicture}
         width={1000}
@@ -19,14 +19,15 @@ export default function Header() {
       <div className="flex flex-col gap-2">
         <div className="flex flex-col">
           <h1 className="text-2xl font-semibold  tracking-tight">Daniel F.</h1>
-          <h5 className="text-sm font-light dark:text-inherit/40 text-inherit/70 tracking-tight">
+          <h5 className="text-sm font-light dark:text-inherit/40 text-inherit/70 tracking-tight" title="Daniel's profession">
             {Daniel.profession}
           </h5>
-          <p className="text-xs  dark:text-inherit/40 text-inherit/70 tracking-tight">
+          <p className="text-xs  dark:text-inherit/40 text-inherit/70 tracking-tight" title="Daniel's current education">
             Bachelor {education[0].currentGrade} at{" "}
             <a
               href="https://ecole-decode.fr"
-              className="hover:opacity-70 bg-resumepurple text-resumewhite dark:bg-resumewhite dark:text-resumepurple px-1 rounded-xs customoutline transition duration-300 tracking-tight">
+              className="hover:opacity-70 bg-resumepurple text-resumewhite dark:bg-resumewhite dark:text-resumepurple px-1 rounded-xs customoutline transition duration-300 tracking-tight"
+              title="a link to Daniel's school website">
               {education[0].institution}
             </a>
           </p>

@@ -105,6 +105,9 @@
   .customoutline {
     @apply focus-visible:outline-2  focus-visible:outline-offset-2 focus-visible:outline-resumepurple dark:focus-visible:outline-resumewhite rounded;
   }
+  .customoutline-buttons {
+    @apply focus-visible:outline-2  focus-visible:outline-offset-2 focus-visible:outline-resumepurple dark:focus-visible:outline-resumewhite rounded-full;
+  }
   * {
     @apply border-border outline-ring/50 selection:bg-resumepurple selection:text-resumewhite dark:selection:bg-resumewhite dark:selection:text-resumepurple selection:rounded-xl selection:px-1 selection:py-0.5;
   }

@@ -16,40 +16,54 @@ import { Plus } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <div className=" p-5 md:p-10 fixed w-full z-0 flex items-center justify-end  customoutline">
-      <Drawer direction="bottom">
-        <DrawerTrigger className="customoutline">
-          <div className=" p-1   border border-resumewhite/15 dark:border-resumepurple/15 bg-resumepurple dark:bg-resumewhite text-resumewhite dark:text-resumepurple/80 rounded-full customoutline cursor-pointer">
-            <Plus className="customoutline" />
-          </div>
-        </DrawerTrigger>
-        <DrawerContent className="dark:bg-resumepurple dark:text-resumewhite text-resumepurple bg-resumewhite w-full">
-          <DrawerHeader>
-            <DrawerTitle className="text-2xl dark:text-resumewhite text-resumepurple w-full text-center">
-              <span>Reach me</span>
-            </DrawerTitle>
-          </DrawerHeader>
-          <nav className="flex flex-col gap-2 p-5 w-full text-center justify-between items-center customoutline">
-            {socialLinks.map((link) => (
-              <Link
-                key={link.url}
-                href={link.url}
-                className="p-2 dark:hover:bg-resumewhite dark:hover:text-resumepurple w-full font-medium transition duration-200 customoutline">
-                {link.platform}
-              </Link>
-            ))}
-          </nav>
-          <DrawerFooter>
-            <DrawerClose asChild className="customoutline">
-              <Button
-                variant="ghost"
-                className="hover:text-resumewhite hover:bg-resumepurple cursor-pointer customoutline">
-                Close
-              </Button>
-            </DrawerClose>
-          </DrawerFooter>
-        </DrawerContent>
-      </Drawer>
+    <div className="flex w-full justify-end">
+      <div
+        className=" p-7 md:p-10 fixed w-fit z-10 flex items-center justify-end  customoutline-buttons"
+        title="This is the navbar, it contains a button to open the social links drawer">
+        <Drawer direction="bottom">
+          <DrawerTrigger
+            className="customoutline-buttons"
+            type="button"
+            title="Social links button"
+            name="Social links button">
+            <div className=" p-1   border border-resumewhite/15 dark:border-resumepurple/15 bg-resumepurple dark:bg-resumewhite text-resumewhite dark:text-resumepurple/80 rounded-full customoutline cursor-pointer">
+              <Plus className="customoutline-buttons" />
+            </div>
+          </DrawerTrigger>
+          <DrawerContent
+            className="dark:bg-resumepurple dark:text-resumewhite text-resumepurple bg-resumewhite w-full"
+            accessKey="tab">
+            <DrawerHeader>
+              <DrawerTitle
+                className="text-2xl dark:text-resumewhite text-resumepurple w-full text-center"
+                title="Drawer's Title">
+                <span>Reach me</span>
+              </DrawerTitle>
+            </DrawerHeader>
+            <nav className="flex flex-col gap-2 p-5 w-full text-center justify-between items-center customoutline">
+              {socialLinks.map((link) => (
+                <Link
+                  key={link.url}
+                  href={link.url}
+                  title={`Link to ${link.platform}`}
+                  className="p-2 dark:hover:bg-resumewhite dark:hover:text-resumepurple w-full font-medium transition duration-200 customoutline-buttons">
+                  {link.platform}
+                </Link>
+              ))}
+            </nav>
+            <DrawerFooter>
+              <DrawerClose asChild className="customoutline">
+                <Button
+                  variant="ghost"
+                  className="hover:text-resumewhite hover:bg-resumepurple cursor-pointer customoutline"
+                  title="Close button">
+                  Close
+                </Button>
+              </DrawerClose>
+            </DrawerFooter>
+          </DrawerContent>
+        </Drawer>
+      </div>
     </div>
   );
 }
