@@ -3,7 +3,7 @@ import { Daniel } from "@/lib/constants";
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2" id="about-me-section">
       <h2 className="text-xl font-semibold tracking-tight">About Me</h2>
       <div className="flex flex-col gap-3">
         <p className="text-sm tracking-tight">
