@@ -6,7 +6,7 @@ import NewsBanner from "../ui/NewsBanner";
 
 export default function Header() {
   return (
-    <div className="flex lg:flex-row flex-col gap-5 lg:py-5 lg:items-center">
+    <section className="flex lg:flex-row flex-col gap-5 lg:py-5 lg:items-center" id="profile-section">
       <Image
         src={profilePicture}
         width={1000}
@@ -33,6 +33,6 @@ export default function Header() {
         </div>
         <NewsBanner />
       </div>
-    </div>
+    </section>
   );
 }
