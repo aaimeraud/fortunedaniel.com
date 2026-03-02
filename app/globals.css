@@ -48,8 +48,8 @@
 }
 
 @theme inline {
-  --color-resumewhite: var(--alt-color-light);
-  --color-resumepurple: var(--alt-color-dark);
+  --color-resumewhite: var(--resumewhite);
+  --color-resumepurple: var(--resumepurple);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-sidebar-ring: var(--sidebar-ring);
