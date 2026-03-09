@@ -1,5 +1,4 @@
 import SectionWrapper from "./components/layout/SectionWrapper";
-import HeroCard from "./components/layout/HeroCard";
 import Link from "next/link";
 
 export default function NotFound() {
