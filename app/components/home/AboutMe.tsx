@@ -19,7 +19,7 @@ export default function AboutMe() {
           frontend or fullstack junior developer.
         </p>
         <a
-          href="/assets/files/cv_daniel_fortune_bordeaux_A4.pdf"
+          href="/assets/files/STAGE_cv_daniel_fortune.pdf"
           target="_blank"
           className="bg-resumepurple text-resumewhite dark:bg-resumewhite dark:text-resumepurple px-2 py-1 mt-2 hover:opacity-90 transition duration-300 w-fit rounded-md text-sm tracking-tight customoutline">
           You can take a look at my resume here.
