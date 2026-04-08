@@ -43,7 +43,7 @@ export const Daniel = {
   professionUpper: "FREELANCE FRONTEND DEVELOPER",
   linkedInBio: "I help SMEs and freelancers develop their online activities.",
 
-  news: "Looking for an internship",
+  news: "Intern @ Comkani",
 };
 
 export const navbarLinks: NavbarLink[] = [
