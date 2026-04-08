@@ -15,7 +15,7 @@ export default function AboutMe() {
         </p>
         <p className="text-sm tracking-tight">
           I&apos;m currently an {Daniel.news.toLowerCase()} as a{" "}
-          frontend multi-stack developer (Shopify, Wordpress, PrestaShop & Next.js).
+          frontend multi-stack developer (Shopify, Wordpress, PrestaShop &amp; Next.js).
         </p>
         <a
           href="/assets/files/STAGE_cv_daniel_fortune.pdf"
