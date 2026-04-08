@@ -14,9 +14,8 @@ export default function AboutMe() {
           to new opportunities and collaborations.
         </p>
         <p className="text-sm tracking-tight">
-          I&apos;m currently {Daniel.news.toLowerCase()} in the{" "}
-          Greater Paris area region starting mid-April 2026 as a{" "}
-          frontend or fullstack junior developer.
+          I&apos;m currently an {Daniel.news.toLowerCase()} as a{" "}
+          frontend multi-stack developer (Shopify, Wordpress, PrestaShop & Next.js).
         </p>
         <a
           href="/assets/files/STAGE_cv_daniel_fortune.pdf"
