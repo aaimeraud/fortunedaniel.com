@@ -3,7 +3,7 @@ import { Daniel } from "@/lib/constants";
 
 export default function NewsBanner() {
   return (
-    <div title="A container that looks like a button it contains a link to Daniel's CV, it's meant to be a news banner to show Daniel's current situation and the button functionnality isn't explicitly said.">
+    <div title="@comkani">
       <a
         href="https://www.linkedin.com/company/agencecomkani/posts/?feedView=all"
         target="_blank"
