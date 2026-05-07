@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { EB_Garamond } from "next/font/google";
-import "./globals.css";
+import "./globals.css"; 
 
-import Navbar from "./components/layout/Navbar";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Navbar from "./components/layout/Navbar";
 
 const ebGaramond = EB_Garamond({
   variable: "--font-eb-garamond",
@@ -88,6 +88,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="bff1328b-2cdc-4742-9099-6f2067e7aaf2"></script>
+      </head>
       <body
         className={` ${ebGaramond.variable} antialiased dark:bg-resumewhite bg-resumepurple scrollbar`}>
         <Navbar />
