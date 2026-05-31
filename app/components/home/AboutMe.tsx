@@ -1,21 +1,24 @@
-import { education } from "@/lib/constants";
-import { Daniel } from "@/lib/constants";
+import { Daniel, education } from "@/lib/constants";
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col gap-2" id="about-me-section" title="About me section, it contains some informations about Daniel Fortuné and a link to his CV that's more explicit about what's in it" >
-      <h3 className="text-xl font-semibold tracking-tight" >About Me</h3>
+    <div className="flex flex-col gap-2" id="about-me-section">
+      <h3 className="text-xl font-semibold tracking-tight">About Me</h3>
       <div className="flex flex-col gap-3">
         <p className="text-sm tracking-tight">
-          I&apos;m a frontend developer and a{" "}
-          student at {education[0].institution} in Paris. I
-          speak English and French fluently. I also do freelance work, so if you
-          have a project in mind, <a href="https://cal.eu/danielfortune" className="hover:opacity-70 transition duration-300 underline customoutline" title="Book a meeting with Daniel">book a meeting</a> ! I&apos;m always open
-          to new opportunities and collaborations.
+          I&apos;m a frontend developer and a student at{" "}
+          {education[0].institution} in Paris. I speak English and French
+          fluently. I also do freelance work, so if you have a project in mind,{" "}
+          <a
+            href="https://cal.eu/danielfortune"
+            className="hover:opacity-70 transition duration-300 underline customoutline">
+            book a meeting
+          </a>{" "}
+          ! I&apos;m always open to new opportunities and collaborations.
         </p>
         <p className="text-sm tracking-tight">
-          I&apos;m currently an {Daniel.news.toLowerCase()} as a{" "}
-          frontend multi-stack developer (Shopify, Wordpress, PrestaShop &amp; Next.js).
+          I&apos;m currently an {Daniel.news.toLowerCase()} as a frontend
+          multi-stack developer (Shopify, Wordpress, PrestaShop &amp; Next.js).
         </p>
         <a
           href="/assets/files/STAGE_cv_daniel_fortune.pdf"

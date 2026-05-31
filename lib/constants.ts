@@ -1,9 +1,6 @@
-import { NavbarLink } from "@/types";
-import { Project } from "@/types";
+import { NavbarLink, Project } from "@/types";
 // import { Experience } from "@/types";
-import { Education } from "@/types";
-import { SocialLink } from "@/types";
-import { ContactInfo } from "@/types";
+import { ContactInfo, Education, SocialLink } from "@/types";
 
 // import { Metadata } from "@/types";
 
@@ -66,8 +63,17 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const projects: Project[] = [
+
   {
     id: 1,
+    title: "AimeRSS",
+    description: "A selection of rss feeds",
+    tags: ["Content Management", "Next.js"],
+    link: "https://feed.fortunedaniel.com",
+    status: "Completed",
+  },
+  {
+    id: 2,
     title: "Termibrary",
     description: "A command line Letterboxd-Like app for books",
     tags: ["Javascript", "Bun", "SQLite"],
@@ -75,7 +81,7 @@ export const projects: Project[] = [
     status: "In Progress",
   },
   {
-    id: 2,
+    id: 3,
     title: "Sillon",
     description:
       "A brand website for an architects firm, showcasing their projects and expertise.",
@@ -84,7 +90,7 @@ export const projects: Project[] = [
     status: "In Progress",
   },
   {
-    id: 3,
+    id: 4,
     title: "My portfolio website",
     description:
       "My personal website, showcasing my projects and skills as a frontend developer.",
