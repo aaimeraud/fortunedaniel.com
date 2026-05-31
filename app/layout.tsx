@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { EB_Garamond } from "next/font/google";
-import "./globals.css"; 
+import "./globals.css";
 
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -17,23 +17,6 @@ export const metadata: Metadata = {
   title: "Daniel Fortuné — Frontend Developer & Web Solutions",
   description:
     "Frontend developer based in Paris specializing in responsive design and web solutions. Ready to bring your project ideas to life.",
-  keywords: [
-    "Daniel Fortuné",
-    "Daniel Fortune",
-    "Fortune Daniel",
-    "Daniel F.",
-    "Fortuné Daniel",
-    "Freelance Developer",
-    "Frontend Developer",
-    "Web Developer",
-    "React Developer",
-    "Next.js Developer",
-    "JavaScript Developer",
-    "TypeScript Developer",
-    "Portfolio Website",
-    ".decode",
-    "Ecole Decode",
-  ],
   openGraph: {
     url: "https://fortunedaniel.com",
     title: "Daniel Fortuné — Frontend Developer & Web Solutions",

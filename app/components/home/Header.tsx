@@ -6,7 +6,7 @@ import NewsBanner from "../ui/NewsBanner";
 
 export default function Header() {
   return (
-    <section className="flex lg:flex-row flex-col gap-5 lg:py-5 lg:items-center" id="profile-section" title="Profile section, it contains a picture of Daniel Fortuné and some informations about him" >
+    <section className="flex lg:flex-row flex-col gap-5 lg:py-5 lg:items-center" id="profile-section" >
       <Image
         src={profilePicture}
         width={1000}
