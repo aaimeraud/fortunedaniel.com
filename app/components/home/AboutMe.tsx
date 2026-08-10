@@ -21,7 +21,7 @@ export default function AboutMe() {
           multi-stack developer (Shopify, Wordpress, PrestaShop &amp; Next.js).
         </p>
         <a
-          href="/assets/files/STAGE_cv_daniel_fortune.pdf"
+          href="/assets/files/cv_daniel_fortune_neutral_A4_[public].pdf"
           target="_blank"
           className="bg-resumepurple text-resumewhite dark:bg-resumewhite dark:text-resumepurple px-2 py-1 mt-2 hover:opacity-90 transition duration-300 w-fit rounded-md text-sm tracking-tight customoutline">
           You can take a look at my resume here.
